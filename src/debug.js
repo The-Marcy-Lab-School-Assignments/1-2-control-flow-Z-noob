@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job getting all test cases to pass! */
 const getRandomIntInRange = (min, max) => {
   if (min > max) throw new Error('min must be less than max');
   return Math.floor(Math.random() * (max - min) + min);

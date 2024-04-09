@@ -1,3 +1,4 @@
+/** FEEDBACK: Because you are using a guard clause, you no longer need the else statement! */
 const wildlyBiasedReview = (location) => {
   if (location !== 'NYC') {
     return console.log('Yea that place is cool I guess');

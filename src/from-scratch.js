@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job getting all test cases to pass! */
 const measureRain = (inches) => {
   if (inches === 0) {
     console.log('drought');
@@ -12,7 +13,7 @@ const measureRain = (inches) => {
   };
 };
 // measureRain(4)
-
+/** FEEDBACK: Great job! Love that you are using nesting conditional statements as it shows a deep understanding of concepts and a sense of organization/pattern recognition however I do want to note that we typically do not want nested conditions as it makes it a little harder to read. */
 const happyBirthdayPet = (breed, age) => {
   if (breed === 'snake') {
     return console.log('Hiss hiss!');
